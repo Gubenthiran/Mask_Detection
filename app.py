@@ -16,7 +16,7 @@ with custom_object_scope:
 st.title('Mask Detection App')
 
 # File uploader to upload an image for prediction
-uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg"])
+uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 
 if uploaded_file is not None:
     # Display the uploaded image
